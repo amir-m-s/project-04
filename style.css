@@ -3,6 +3,11 @@ body::before {
     display: block;
     height: 4rem;
 }
+
+.border-r {
+    border-radius: 0.5rem !important;
+}
+
 @media (min-width: 768px) {
     .news-input {
         width: 50%;
